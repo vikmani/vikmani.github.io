@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'cascadia_coderegular';
+    src: url('../fonts/cascadia-webfont.woff2') format('woff2'),
+         url('../fonts/cascadia-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    margin:0;
+    padding:0;
+    font-family: 'cascadia_coderegular';
+    color:#16C60C;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.bgcolorblack{
+    background-color: #0C0C0C;
+    padding-left: 2%;
+    padding-top: 1%;
+}
+
+a.buttonlink{
+    color:#16C60C;
+    padding: 10px 40px;
+    border:solid 2px #16C60C;
+    text-decoration: none;
+}
+a.buttonlink:hover{
+    background-color: #16C60C;
+    color:#fff;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes popIn {
+    99% {
+      visibility: hidden;
+    }
+    100% {
+      visibility: visible;
+    }
+  }
+
+  .popIn > * {
+    animation: 2s popIn;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+  }
+  .popIn *:nth-child(1) {
+    animation-duration: 1s;
+  }
+  .popIn *:nth-child(2) {
+    animation-duration: 2s;
+  }
+  
+  .popIn *:nth-child(3) {
+    animation-duration: 3s;
+  }
+  .popIn *:nth-child(4) {
+    animation-duration: 4s;
+  }
+  .popIn *:nth-child(5) {
+    animation-duration: 5s;
+  }
+  .popIn *:nth-child(6) {
+    animation-duration: 6s;
+  }
+  .popIn *:nth-child(7) {
+    animation-duration: 7s;
+  }
+  .popIn *:nth-child(8) {
+    animation-duration: 8s;
+  }
+  .popIn *:nth-child(9) {
+    animation-duration: 9s;
+  }
+  .popIn *:nth-child(10) {
+    animation-duration: 10s;
+  }
+  .popIn *:nth-child(11) {
+    animation-duration: 11s;
+  }
+.ascii{
+    /* animation: blinker 5s linear infinite; */
+}
