@@ -1,0 +1,140 @@
+@import url('font.css');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    background-color: #EBECE5;
+    font-size: 62.5%;
+}
+
+.banner{
+    background-color: #EBECE5;
+    padding-top: 5%;
+}
+.page-title{
+    font-size: 3.8rem;
+    font-weight: 600;
+}
+.page-title span{
+    color:#E88757;
+}
+
+.tag-group{
+    padding: 2em 1em;
+}
+
+.tag-group .tags{
+    border:2px #AAAAAA solid;
+    padding: 0.5em 0.8em;
+    margin: 0.4em 0.8em;
+    display: inline-block;
+    border-radius: 100px;
+    font-size:0.9rem;
+}
+
+.intro-body{ 
+    max-width: 850px;
+    width: 100%;
+    margin: 0 auto 0 auto;
+    font-family: "Inter", sans-serif;
+}
+
+.intro-body .quote-icon span{
+        display: inline-block;
+        border-radius: 100%;
+        border:1px solid #767676;
+        padding: 1.5em;
+        text-align: center;
+        width:60px;
+}
+
+.intro-body .quote-icon img{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.intro-body .quote-message{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 3.2rem;
+}
+
+.intro-body .quote-message p{padding: 0.2em 0em;}
+
+.intro-body .quote-message span{
+    background-color: #428EFF;
+    display: inline;
+    border-radius: 50px;
+    color:#ffffff;
+    padding: 0.3em 0.3em;
+}
+
+/* Fonts */
+
+.inter-100 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.inter-200 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.inter-300 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+.inter-400 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.inter-500 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.inter-600 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.inter-600 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.inter-700 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.inter-800 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.inter-900 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+  
