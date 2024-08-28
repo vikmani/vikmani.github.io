@@ -11,7 +11,7 @@ body{
 
 .banner{
     background-color: #EBECE5;
-    padding-top: 5%;
+    padding-top: 10em;
 }
 .page-title{
     font-size: 3.8rem;
@@ -72,69 +72,41 @@ body{
     padding: 0.3em 0.3em;
 }
 
-/* Fonts */
 
-.inter-100 {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 100;
-    font-style: normal;
-}
 
-.inter-200 {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 200;
-    font-style: normal;
-}
 
-.inter-300 {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-}
-.inter-400 {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-}
-.inter-500 {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-}
-.inter-600 {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-}
-.inter-600 {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-}
-.inter-700 {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-}
-.inter-800 {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 800;
-    font-style: normal;
+
+/* // Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {  }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {  }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (max-width: 1400px) {  }
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+    .page-title{
+        font-size: 2.8rem;
+       }
+ }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+    .page-title{
+     font-size: 1.8rem;
+    }
+    .page-subtitle{
+        font-size: 1.2rem;
+    }
+    .tag-group .tags{
+        font-size:0.8rem;
+    }
+    .intro-body .quote-message{
+        font-size: 1rem;
+        line-height: 2.4rem;
+    }
 }
 
-.inter-900 {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 900;
-    font-style: normal;
-}
-  
