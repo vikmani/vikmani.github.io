@@ -72,9 +72,28 @@ body{
     padding: 0.3em 0.3em;
 }
 
+.navbar-toggler.collapsed .navbar-toggler-icon{
+    background-image: var(btn-close-bg);
+}
+
+.navbar-toggler .navbar-toggler-icon{
+    background-image: var(--bs-navbar-toggler-icon-bg);
+}
 
 
+.navbar-toggler:focus{
+    box-shadow: none;
+   
+}
 
+.navbar{
+    right:0;
+}
+
+#navbarToggleExternalContent{
+    right: 0;
+    top:5em;
+}
 
 /* // Large devices (desktops, 992px and up) */
 @media (max-width: 992px) {  }
