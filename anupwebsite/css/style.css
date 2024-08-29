@@ -241,7 +241,7 @@ body{
   }
 
 .background-animation{
-    transition: transform 1s; /* Animation */
+    transition: transform 2s; /* Animation */
 }
 
 .background-animation .icons-list span{
