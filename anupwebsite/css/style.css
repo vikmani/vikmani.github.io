@@ -147,8 +147,7 @@ body{
     background-image: url("../images/elements/01.png");
     background-size: cover;
     top: 70%;
-    left: 70%;
-
+    left: 50%;
 }
 .background-animation .icons-list span:nth-child(2){
     background-image: url("../images/elements/02.png");
@@ -160,7 +159,7 @@ body{
     background-image: url("../images/elements/03.png");
     background-size: cover;
     top: 30%;
-    right: 70%;
+    left: 70%;
 }
 .background-animation .icons-list span:nth-child(4){
     background-image: url("../images/elements/04.png");
