@@ -1,9 +1,11 @@
-﻿/* @import url('font.css'); */
+﻿@import url('font.css');
+@import url('https://fonts.cdnfonts.com/css/space-grotesk');
 
 body {
     margin: 0;
     padding: 0;
-    font-family: "Inter", sans-serif;
+    /* font-family: "Inter", sans-serif; */
+    font-family: 'Space Grotesk', sans-serif;
     font-optical-sizing: auto;
     background-color: #F2F4F3;
     font-size: 62.5%;
@@ -95,6 +97,7 @@ body {
     background-color: #DFDFDF;
     padding: 0.4em 0.8em;
 }
+
 /* 
 .navbar-toggler.collapsed .navbar-toggler-icon {} */
 
@@ -123,9 +126,12 @@ body {
 }
 
 
-.menu-menu-1-container ul{margin: 0; padding: 0;}
+.menu-menu-1-container ul {
+    margin: 0;
+    padding: 0;
+}
 
-.menu-menu-1-container ul li{
+.menu-menu-1-container ul li {
     list-style-type: none;
     padding: 0.5em 1em;
     font-size: 16px;
@@ -133,13 +139,13 @@ body {
     border-radius: 0px;
 }
 
-.menu-menu-1-container ul li:hover{
+.menu-menu-1-container ul li:hover {
     background: #DFDFDF;
 }
 
-.menu-menu-1-container ul li a{
+.menu-menu-1-container ul li a {
     text-decoration: none;
-    color:#000;
+    color: #000;
     display: block;
 }
 
