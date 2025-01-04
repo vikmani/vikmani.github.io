@@ -48,11 +48,11 @@
     padding-bottom: 1em;
 }
 
-.page-content.contact-block{
+.page-content.contact-block, .page-content.resume-block{
     padding: 10em 0em;
 }
 
-.page-content.contact-block p{
+.page-content.contact-block p, .page-content.resume-block p{
     font-size: 1rem;
     line-height: 1.4rem;
 }
@@ -106,6 +106,130 @@
     background-color: #4cae4c;
 }
 
+/* Resume Page */
+.resume-block .banner{
+    border-radius: 120px 0px 0px 120px;
+    border:#AAAAAA solid 1px;
+    padding: 0em 0 0 0;
+    overflow: hidden;
+    margin-bottom: 10em;
+    
+}
+
+.resume-block .banner .profile{
+    background-color: #DBD2C5;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding: 4em 4em 0em 0em;
+    
+}
+
+.resume-block .banner .contact-info{
+    font-size: 1.2rem;
+    line-height: 2.4rem;
+
+}
+
+.resume-block .banner .contact-info .icon{
+    width: 30px;
+    height: 28px;
+    display: inline-block;
+    background-image: url('../images/resume/contact-info-icons.png');
+    background-position: 0 0;
+    margin-right: 0.6em;
+}
+
+.resume-block .banner .contact-info .icon.email{
+    background-position: 0 0;
+}
+.resume-block .banner .contact-info .icon.phone{
+    background-position: 32px 0;
+}
+
+.resume-content .block-heading{
+    line-height: 40px;
+    display: flex;
+}
+
+.resume-content  .block-content{
+    padding-left: 6em;
+    padding-bottom: 2em;
+}
+
+
+.resume-content  .block-content p.content-heading{
+    margin-bottom: 0.5rem;
+}
+.resume-content  .block-content ul{
+    padding-top: 1em;
+}
+.resume-content  .block-content ul li{
+    font-size: 1rem;
+    padding-bottom: 0.5em;
+}
+
+
+
+.resume-content .block-heading .icon{
+    background-image: url('../images/resume/icons-resume.png');
+    width: 44px;
+    height: 44px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-right: 0.8em;
+    background-position:-5px -5px;
+}
+
+.resume-content .block-heading .icon.professional{
+    background-position:-5px -5px;
+}
+
+.resume-content .block-heading .icon.education{
+    background-position:-59px -5px;
+}
+
+.resume-content .block-heading .icon.work{
+    background-position:-113px -5px;
+}
+
+
+.resume-content .block-heading .icon.certificates{
+    background-position:-167px -5px;
+}
+
+.resume-content .block-heading .icon.personal{
+    background-position:-221px -5px;
+}
+
+
+.resume-content .block-heading .icon.skills{
+    background-position:-275px -5px;
+}
+
+.resume-content .block-heading .icon.technical{
+    background-position:-329px -5px;
+}
+
+
+.page-content.resume-block .title{
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 0;
+    padding-bottom: 0.6em;
+}
+
+.page-content.resume-block .sub-title{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color:#4F4F4F;
+}
+
+.page-content.resume-block .resume-content{
+    padding: 2em 0em;
+}
+
+
 /* Border */
 .brd-btm{
     border-bottom: 1px solid #AAAAAA;
@@ -116,6 +240,8 @@
 .brd-lft{
     border-left: 1px solid #AAAAAA;
 }
+
+
 
 /* // Large devices (desktops, 992px and up) */
 @media (max-width: 992px) {}
