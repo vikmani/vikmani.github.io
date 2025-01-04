@@ -280,6 +280,28 @@
     .contact-form button{
         width: 100%;
     }
+
+    .resume-block .banner {
+        border-radius: 120px 0;
+    }
+    .resume-block .banner .profile{
+        padding: 4em 4em 0em 2em;
+    }
+
+    .page-content.resume-block .title {
+        font-size: 1.6rem;
+        margin-bottom: 0;
+        padding-bottom: 0.6em;
+        line-height: 18px;
+        margin-top: 1em;
+    }
+
+    .page-content.resume-block .sub-title {
+        font-size: 1.3rem;
+    }
+    .resume-block .banner .contact-info{
+        padding: 0.5em 0em;
+    }
 }
 
 /* // Small devices (landscape phones, 576px and up) */
